@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { setAmount ,resetOrder } from '../../store/slice/basketSlice';
 import s from '../Basket/Basket.module.css'
 import {useAuth} from '../../hooks/userAuth'
+import Notiflix from 'notiflix';
 
 export const Basket = () => {
     const {products} =   useSelector(state => state.basket)
@@ -23,8 +24,7 @@ export const Basket = () => {
             navigate('/') ; dispatch(resetOrder())            
         }
         else{
-            navigate('/login')
-            window.alert('Please sign in')
+          Notiflix.Notify.failure("Please sign in")
         }
     }
     const handleAmoutChange = (e) => {
@@ -45,7 +45,7 @@ export const Basket = () => {
                     <span className={s.Product__Description__Item}>
                       {item.product}
                     </span>
-                    <span>{item.price}$</span>
+                    <span>{item.price}grv</span>
                     <input
                       type="number"
                       name={item.product}
@@ -65,7 +65,7 @@ export const Basket = () => {
             ))}
         </ul>
         <div>
-            <p>To be payable {payable()}</p>
+            <p>To be payable {payable()} grv</p>
             <button className={s.pay} onClick = {payAll}>Pay</button>
         </div>
        

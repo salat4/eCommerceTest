@@ -44,7 +44,7 @@ export const Header = () => {
       </div>
       } 
       {!isAuth    ?       <div className={s.basket_box}>
-        <Link className={s.personal} to = '/' onClick={()=>Notiflix.Notify.failure('Plesase You need sign in')}>Personal office</Link>
+        <p className={s.personal} onClick={()=>Notiflix.Notify.failure('Plesase You need sign in')}>Personal office</p>
         <Link to = '/basket' className={s.basket}>
           <svg width={30} height = {30}>
             <use href = {`${svg}#icon-cart`}/>
