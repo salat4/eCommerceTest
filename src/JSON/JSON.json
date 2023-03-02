@@ -1,0 +1,138 @@
+[
+    {   
+        "id":"Teapot-Black",
+        "products":"Teapot Black",
+        "category":"Teapot",
+        "rating":"4",
+        "price":"300",
+        "img":"https://i.ibb.co/H4H7VhF/Black-tea-pot-cropped.jpg",
+        "description":"Stylish teapot 850 ml - intended for brewing delicious black or green tea. The exteriors are coated with a protective glaze that extends product life and also improves stain resistance for an improved appearance."
+    },
+    {
+        "id":"Teapot-White-Blue-Flower",
+        "products":"Teapot White Blue Flower",
+        "category":"Teapot",
+        "rating":"5",
+        "price":"500",
+        "img":"https://i.ibb.co/b2h9C8t/teapot-blue-white.jpg",
+        "description":"This teapot is decorated in a traditional English color palette. Thanks to this, dishes, cutlery, and kitchen accessories will decorate your table, turning lunch or tea into a celebration."
+    },
+    {
+        "id":"Teapot-Ceramic-Yellow",
+        "products":"Teapot Ceramic Yellow",
+        "category":"Teapot",
+        "rating":"2.3",
+        "price":"150",
+        "img":"https://i.ibb.co/c1b2LHC/Teapot-yellow.jpg",
+        "description":"A yellow vitreous ceramic enamel teapot of approximately 1 litre, or more traditionally 6 cups capacity. Firing in a traditional kiln results in slight variations of temperature and therefore colour and nature of finish. All our Ukrainian enamelware is triple coated onto a heavy steel base, is dishwasher safe, does not taint food with novel chemicals or flavours."
+    },
+    {
+        "id":"Tea-Assorted",
+        "products":"Tea Assorted ",
+        "category":"Tea bags",
+        "rating":"5",
+        "price":"250",
+        "img":"https://i.ibb.co/jTRdYC8/tea-assorted.webp",
+        "description":"Assortment of the best tea flavors in individual envelopes."
+    },
+    {
+        "id":"Tea-Flowers",
+        "products":"Tea Flowers",
+        "category":"Tea bags",
+        "rating":"4.7",
+        "price":"180",
+        "img":"https://i.ibb.co/7pnP7sm/tea-flowers.webp",
+        "description":"This product is unique not only in form but also in content."
+    },
+    {
+        "id":"Tea-Black",
+        "products":"Tea Black",
+        "category":"Tea bags",
+        "rating":"4.5",
+        "price":"150",
+        "img":"https://i.ibb.co/c3Q7HHR/tea-black.webp",
+        "description":"This quality black tea with an unconventional taste will warm and energize you."
+    },
+    {
+        "id":"Tea-Green",
+        "products":"Tea Green",
+        "category":"Tea bags",
+        "rating":"2",
+        "price":"250",
+        "img":"https://i.ibb.co/2Frj2G6/tea-green.webp",
+        "description":"For lovers of taste nuances. Green tea with warm notes of sauce - 'creamy apple'. A drink that invigorates and refreshes, with a rich taste of shades and halftones, fills with energy and gives joy."
+    },
+    {
+        "id":"Tea-Bergamot",
+        "products":"Tea Bergamot",
+        "category":"Tea bags",
+        "rating":"5",
+        "price":"150",
+        "img":"https://i.ibb.co/gw264YM/tea-ber.webp",
+        "description":"This elegant drink became fashionable to serve in the evening, during 'high tea' in English homes under the prime minister, Earl Charles Grey. The recipe for flavoring tea with bergamot oil was received by the count as a thank you from the Chinese governor. Nowadays, in the best British houses, it is customary to serve guests a choice of several varieties of tea, one of which is definitely Earl Grey."
+    },
+    {
+        "id":"Green-mix-Antistress",
+        "products":"Green mix Antistress",
+        "category":"Tea mix",
+        "rating":"4",
+        "price":"140",
+        "img":"https://i.ibb.co/ZSPss7H/travyanaya-smes-antistress.webp",
+        "description":"The natural mix Antistress consists of leaves of mistletoe, birch, nettle, ginkgo, and lemon tree. It has a pleasant aroma and an amazingly calming effect. A great option after a busy day."
+    },
+    {
+        "id":"Fruit-mix-Strawberry-Symphony",
+        "products":"Fruit mix Strawberry Symphony",
+        "category":"Tea mix",
+        "rating":"4.6",
+        "price":"130",
+        "img":"https://i.ibb.co/DbDSP8C/fruktovaya-smes-zemlyanichnaya-simfoniya.webp",
+        "description":"A natural fruit mixture based on karkade with pieces of rosehip, apple, orange peel and lemon, and strawberry berries is a wonderful juicy bonus."
+
+    },
+    {
+        "id":"Fruit-mix-Cheeky-fruit",
+        "products":"Fruit mix Cheeky fruit",
+        "category":"Tea mix",
+        "rating":"4.7",
+        "price":"130",
+        "img":"https://i.ibb.co/9ZH4qnB/fruktovaya-smes-naglyy-frukt.webp",
+        "description":"A fruit mix of pieces of apple, papaya, currants, and hibiscus petals - this is what makes Cheeky Fruit so rich and unusual. Rosehip, elderberry, and raisin crusts complement the taste bouquet."
+    },
+    {
+        "id":"Tea-mix-Cleopatra",
+        "products":"Tea mix Cleopatra",
+        "category":"Tea mix",
+        "rating":"3",
+        "price":"120",
+        "img":"https://i.ibb.co/p0zsLJW/chernyy-chay-kleopatra.webp",
+        "description":"Black tea with the addition of mallow blossoms, sunflower petals, rose, pineapple pieces, and raisins. A royal drink with an amazing taste and aroma."
+    },
+    {
+        "id":"Tea-mix-Silvia",
+        "products":"Tea mix Silvia",
+        "category":"Tea mix",
+        "rating":"4.2",
+        "price":"130",
+        "img":"https://i.ibb.co/tMf0X2p/chernyy-chay-silviya.webp",
+        "description":"Black Vietnamese tea with pieces of raisins, red currants, blueberries, cranberries, and blackberries. Such a berry bouquet will remain in your memory for a long time!"
+    },
+    {
+        "id":"Cocoa-powder",
+        "products":"Cocoa powder",
+        "category":"Cocoa",
+        "rating":"3.7",
+        "price":"560",
+        "img":"https://i.ibb.co/6bcdqzY/kakao-poroshok-naturalniy.webp",
+        "description":"Craft natural cocoa from the Netherlands without alkalization. It has a delicate chocolate taste with bright notes of fruits and flowers and the highest content of cocoa butter among natural cocoa."
+    },
+    {
+        "id":"Cocoa-beans",
+        "products":"Cocoa beans",
+        "category":"Cocoa",
+        "rating":"3",
+        "price":"500",
+        "img":"https://i.ibb.co/9W1dzyJ/cacao-bob.webp",
+        "description":"GROUND COCOA BEANS are our new unique development. Unlike cocoa powder, which is ground after squeezing the cocoa butter parts from the third and goes through many production stages, we have cocoa beans as they are - that is, without squeezing cocoa butter with them and without industrial processing!"
+    }
+]

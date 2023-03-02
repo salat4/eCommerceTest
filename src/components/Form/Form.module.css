@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.input_box{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.input_box > input:not(:last-child){
+    margin-bottom: 20px;
+}
+.input_box > input{
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+}
+.input_box > input:last-child{
+    margin-bottom: 40px;
+}
+.button_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button_box > button{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+}
+.button_box > button:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+.button_box > button:not(:last-child){
+    margin-bottom: 20px;
+
+}
+
+.input_box > input::placeholder{
+    text-align: center
+}
