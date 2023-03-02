@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from 'react-router-dom';
-import { setAmount ,resetOrder } from '../../store/slice/basketSlice';
+import { setAmount ,resetOrder ,setResetOneOrder} from '../../store/slice/basketSlice';
 import s from '../Basket/Basket.module.css'
 import {useAuth} from '../../hooks/userAuth'
 import Notiflix from 'notiflix';
@@ -21,7 +21,7 @@ export const Basket = () => {
     }
     const payAll = () =>{
         if(isAuth){
-            navigate('/') ; dispatch(resetOrder())            
+            navigate('/') ; dispatch(resetOrder())  ; Notiflix.Notify.success("Thanks you for your order")     
         }
         else{
           Notiflix.Notify.failure("Please sign in")
@@ -29,6 +29,10 @@ export const Basket = () => {
     }
     const handleAmoutChange = (e) => {
         e.preventDefault();
+        console.log(typeof e.target.value)
+        if(Number(e.target.value) === 0){
+          dispatch(setResetOneOrder({id: e.target.id, amount: e.target.value }))
+        }
         dispatch(setAmount({ id: e.target.id, amount: e.target.value }));
       };
 
@@ -54,7 +58,7 @@ export const Basket = () => {
                       Number(  products.find((element) => element.id === item.id)
                       .amount)
                       }
-                      min="0"
+                      min="1"
                       onChange={handleAmoutChange}
                       className={s.Product__Description__Amount}
                     ></input>

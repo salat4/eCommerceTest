@@ -26,7 +26,7 @@ export const Register = () => {
       Notiflix.Notify.success('Create User done');
     })
     .catch((error)=>{
-      Notiflix.Notify.error(error)
+      Notiflix.Notify.failure('Failure Register please do it again')
     })
   }
 
@@ -43,7 +43,8 @@ export const Register = () => {
       Notiflix.Notify.success('Create User done');
     })
     .catch((error)=>{
-      Notiflix.Notify.error(error)
+      Notiflix.Notify.failure("Failure Register please do it again")
+
     })
 
   }

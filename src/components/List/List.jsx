@@ -79,7 +79,7 @@ export const List = ({data}) => {
         <ul className={s.list}>
             {filterData.map((items)=>(
                 <div className={s.box}>
-                    <Link to={`${items.id}`} state = {items}>
+                    <Link to={`/${items.id}`} state = {items}>
                         <li className={s.item} key = {items.id}>
                             <img src = {items.img} alt = {items.products} width = "250" height="250" className={s.img}/>
                             <div className={s.box__description}>

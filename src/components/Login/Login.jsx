@@ -25,7 +25,7 @@ export const Login = () => {
       Notiflix.Notify.success('Sign in Done');
     })
     .catch((error)=>{
-      Notiflix.Notify.failure(error)
+      Notiflix.Notify.failure("Failure Login please do it again")
     })
   }
 
@@ -43,7 +43,7 @@ export const Login = () => {
       Notiflix.Notify.success('Sign in Done');
     })
     .catch((error)=>{
-      Notiflix.Notify.failure(error)
+      Notiflix.Notify.failure("Failure Login please do it again")
     })
 
   }

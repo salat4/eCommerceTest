@@ -39,7 +39,6 @@ export const Item = () => {
    
   return (
     <div>
-      <Header/>
         {location && 
         <div className={s.container}>
             <img src={location.state.img} alt={location.state.id} />
@@ -62,7 +61,6 @@ export const Item = () => {
         </div>
             
         }
-        <Footer/>
     </div>
   )
 }
